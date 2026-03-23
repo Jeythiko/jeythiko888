@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color:aliceblue;
+}
+/* Mobile phones */
+@media (max-width: 480px){
+    body{
+    background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+}
+}
+
+/* Tablets */
+@media (max-width: 768px) {  body{
+    background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+}}
+
+/* Laptops */
+@media (max-width: 1024px) {  body{
+    background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+}}
+
+/* Large desktops */
+@media (min-width: 1201px) {  body{
+    background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
+    backdrop-filter: blur(20px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+}}
+.nav-bar{
+  background:linear-gradient(rgb(17, 17, 23), rgb(3, 3, 7)) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    box-shadow: rgb(41, 46, 52) 0px 3px 5px;
+}
+.nav-bar li, a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    font-weight: bold;
+    display: inline;
+    
+}
+.nav-bar li:hover{
+    color: rgb(39, 14, 44);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
