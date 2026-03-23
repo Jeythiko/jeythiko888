@@ -10,7 +10,7 @@
     background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 12px;
+    font-size: 11px;
 }
 }
 
@@ -19,7 +19,7 @@
     background: linear-gradient(135deg, #030514, #0a181d, #031f2b);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 12px;
+    font-size: 11px;
 }}
 
 /* Laptops */
@@ -57,10 +57,10 @@
 .nav-bar li, a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, sans-serif;
     list-style-type: none;
-    font-weight: bold;
+    font-weight: 50px;
     display: inline;
     
 }
