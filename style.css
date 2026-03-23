@@ -69,4 +69,10 @@
     text-decoration: underline;
     transition: 0.3s;
 }
+h2{
+    background: linear-gradient(rgb(255, 0, 187), rgb(23, 198, 237));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
