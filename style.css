@@ -62,6 +62,7 @@
     list-style-type: none;
     font-weight: 50px;
     display: inline;
+    margin: 0 5px;
     
 }
 .nav-bar li:hover{
