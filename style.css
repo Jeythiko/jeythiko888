@@ -53,6 +53,7 @@
     top: 0;
     padding: 20px;
     box-shadow: rgb(41, 46, 52) 0px 3px 5px;
+    border-bottom: rgb(22, 121, 121) 1px solid;
 }
 .nav-bar li, a{
     color: white;
@@ -68,12 +69,15 @@
 .nav-bar li:hover{
     color: rgb(39, 14, 44);
     text-decoration: underline;
-    transition: 0.3s;
+    transition: 0.5s;
 }
-h2{
-    background: linear-gradient(rgb(255, 0, 187), rgb(23, 198, 237));
+.heading h2{
+    background: linear-gradient(rgb(210, 8, 166), rgb(239, 247, 14));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: translateX('50%');
+    text-align: center;
 }
+
 
