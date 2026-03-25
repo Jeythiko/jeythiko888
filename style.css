@@ -72,12 +72,21 @@
     transition: 0.5s;
 }
 .heading h2{
-    background: linear-gradient(rgb(210, 8, 166), rgb(239, 247, 14));
+    background: linear-gradient(rgb(12, 188, 174), rgb(115, 220, 223));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: translateX('50%');
     text-align: center;
+    font-size: 22px;
+img{
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(14, 193, 193);
 }
 
 
